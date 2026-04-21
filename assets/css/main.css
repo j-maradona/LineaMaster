@@ -582,6 +582,10 @@ a.navbar-brand img {
 nav.main-menu ul {
   margin: 0;
   padding: 0;
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
   list-style: none;
 }
 
@@ -943,7 +947,7 @@ h2.widget-title:after {
 
 .footer-box.subscribe form input[type=email] {
   border: none;
-  background-color: #012738;
+  background-color: #3a3a3a;
   width: 78%;
   padding: 15px;
   border-top-left-radius: 5px;
@@ -954,7 +958,7 @@ h2.widget-title:after {
 .footer-box.subscribe form button {
   width: 20%;
   border: none;
-  background-color: #012738;
+  background-color: #3a3a3a;
   color: #F28123;
   padding: 14px 0;
   border-top-right-radius: 3px;
@@ -968,7 +972,7 @@ h2.widget-title:after {
 
 .copyright {
   background-color: #292929;
-  border-top: 1px solid #232a35;
+  border-top: 2px solid #4d4d4d;
 }
 
 .copyright p {
