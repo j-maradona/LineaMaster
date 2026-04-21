@@ -156,6 +156,16 @@
         $(".close-btn").on("click", function() {
             $(".search-area").removeClass("search-active");
         });
+
+        // Changing word animation
+        var words = ["marcan la diferencia", "potencian tu marca", "generan impacto", "elevan tu imagen"];
+        var index = 0;
+        setInterval(function() {
+            $('#changing-word').fadeOut(500, function() {
+                $(this).text(words[index]).fadeIn(500);
+            });
+            index = (index + 1) % words.length;
+        }, 3000);
     
     });
 
