@@ -2885,3 +2885,18 @@ table.order-details tbody td {
   width: 35px;
   height: 35px;
 }
+
+.whatsapp-contact-btn {
+  display: inline-block;
+  background: #F28123;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.whatsapp-contact-btn:hover {
+  background: #000000;
+}
