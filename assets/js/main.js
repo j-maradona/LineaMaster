@@ -57,6 +57,11 @@
             items: 4,
             loop: true,
             autoplay: true,
+            autoplayTimeout: 100,
+            smartSpeed: 6000,
+            autoplaySpeed: 6000,
+            slideTransition: 'linear',
+            autoplayHoverPause: false,
             margin: 30,
             responsive:{
                 0:{
@@ -73,7 +78,7 @@
                     loop:true
                 }
             }
-        });
+        }).trigger('play.owl.autoplay',[100]);
 
         // count down
         if($('.time-countdown').length){  
