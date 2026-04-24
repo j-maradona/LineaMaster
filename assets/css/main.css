@@ -1617,6 +1617,10 @@ div.owl-controls, .owl-controls div {
   letter-spacing: 0.5px;
 }
 
+.list-box .list-icon {
+  margin-right: 20px;
+}
+
 .list-box .content h3 {
   display: block;
   line-height: 22px;
