@@ -352,7 +352,8 @@ p:last-child {
 }
 
 .mt-150 {
-  margin-top: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -372,7 +373,7 @@ p:last-child {
 }
 
 .pt-80 {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -382,7 +383,7 @@ p:last-child {
 }
 
 .pb-80 {
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -412,7 +413,7 @@ p:last-child {
 }
 
 .pt-150 {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -422,7 +423,7 @@ p:last-child {
 }
 
 .pb-150 {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -505,7 +506,8 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 }
 
 .section-title {
-  margin-bottom: 80px;
+  padding: 30px;
+  margin-bottom: 50px;
 }
 
 .breadcrumb-bg {
