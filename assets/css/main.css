@@ -1654,19 +1654,19 @@ div.owl-controls, .owl-controls div {
 
 ----------------------------------------------------------------------------- */
 .news-bg-1 {
-  background-image: url(../img/carteleria.jpg);
+  background-image: url(../img/servicios/carteleria.jpg);
 }
 
 .news-bg-2 {
-  background-image: url(../img/imprenta.jpg);
+  background-image: url(../img/servicios/imprenta.jpg);
 }
 
 .news-bg-3 {
-  background-image: url(../img/cortecnc.jpg);
+  background-image: url(../img/servicios/cortecnc.jpg);
 }
 
 .news-bg-4 {
-  background-image: url(../img/merchandising.jpg);
+  background-image: url(../img/servicios/merchandising.jpg);
 }
 
 .news-bg-5 {
@@ -2227,19 +2227,27 @@ a.video-play-btn {
 }
 
 .team-bg-1 {
-  background-image: url(../img/team/team-1.jpg);
+  background-image: url(../img/trabajos/12.jpeg);
 }
 
 .team-bg-2 {
-  background-image: url(../img/team/team-2.jpg);
+  background-image: url(../img/trabajos/11.jpeg);
 }
 
 .team-bg-3 {
-  background-image: url(../img/team/team-3.jpg);
+  background-image: url(../img/trabajos/10.jpg);
 }
 
 .team-bg-4 {
-  background-image: url(../img/team/team-4.jpg);
+  background-image: url(../img/trabajos/8.jpg);
+}
+
+.team-bg-5 {
+  background-image: url(../img/trabajos/6.jpg);
+}
+
+.team-bg-6 {
+  background-image: url(../img/trabajos/3.jpg);
 }
 
 .team-bg {
