@@ -52,33 +52,12 @@
             }
         });
 
-        // logo carousel
-        $(".logo-carousel-inner").owlCarousel({
-            items: 4,
-            loop: true,
-            autoplay: true,
-            autoplayTimeout: 100,
-            smartSpeed: 6000,
-            autoplaySpeed: 6000,
-            slideTransition: 'linear',
-            autoplayHoverPause: false,
-            margin: 30,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:false
-                },
-                600:{
-                    items:3,
-                    nav:false
-                },
-                1000:{
-                    items:4,
-                    nav:false,
-                    loop:true
-                }
-            }
-        }).trigger('play.owl.autoplay',[100]);
+        // logo carousel - scroll infinito con CSS animation
+        var $logoCarousel = $(".logo-carousel-inner");
+        
+        // Triplicar los logos para crear efecto infinito sin saltos
+        var $logos = $logoCarousel.html();
+        $logoCarousel.html($logos + $logos + $logos);
 
         // count down
         if($('.time-countdown').length){  
