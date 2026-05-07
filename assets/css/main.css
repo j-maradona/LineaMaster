@@ -915,6 +915,31 @@ a.mobile-show {
 .logo-carousel-section {
   background-color: #f5f5f5;
   padding: 50px 0;
+  overflow: hidden;
+}
+
+.logo-carousel-inner {
+  display: flex;
+  align-items: center;
+  animation: scroll-logos 54s linear infinite !important;
+  width: fit-content;
+}
+
+.single-logo-item {
+  flex-shrink: 0;
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-33.333% - 30px));
+  }
 }
 
 .footer-area {
