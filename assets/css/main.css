@@ -2868,19 +2868,29 @@ table.order-details tbody td {
 }
 
 .whatsapp-btn {
-  width: 60px;
+  min-width: 60px;
   height: 60px;
   background: #25D366;
-  border-radius: 50%;
-  display: flex;
+  border-radius: 40px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  padding: 0 16px;
+  gap: 10px;
+  text-decoration: none;
 }
 
 .whatsapp-btn img {
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
+}
+
+.whatsapp-btn span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .whatsapp-contact-btn {
