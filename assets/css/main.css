@@ -664,6 +664,7 @@ ul.sub-menu li:last-child {
 
 .mean-bar a.meanmenu-reveal {
   background-color: #F28123;
+  border-radius: 8px;
 }
 
 .main-menu-wrap {
@@ -680,10 +681,16 @@ ul.sub-menu li:last-child {
 
 .mean-container .mean-nav ul li a {
   padding: 0.5em 5%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
 .mean-container .mean-nav ul li li a {
   padding: 0.5em 10%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -1659,10 +1666,23 @@ div.owl-controls, .owl-controls div {
 .list-box {
   overflow: hidden;
   letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .list-box .list-icon {
-  margin-right: 20px;
+  margin: 0 0 20px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.list-box .list-icon img {
+  display: block;
+  width: 64px;
+  height: 64px;
 }
 
 .list-box .content h3 {
